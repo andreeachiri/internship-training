@@ -3,7 +3,7 @@ import unittest
 from flatten import flatten
 
 
-class FlatteningAListTest(unittest.TestCase):
+class FlatteningAList(unittest.TestCase):
     def test_does_not_change_a_flattened_list(self):
         flat_list = [1, 2, 3, 4]
 

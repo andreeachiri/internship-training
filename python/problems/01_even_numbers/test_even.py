@@ -3,7 +3,7 @@ import unittest
 from even import even
 
 
-class EveningAListTest(unittest.TestCase):
+class EveningAList(unittest.TestCase):
     def test_returns_empty_list_if_no_even_numbers(self):
         self.assertEqual(even([]), [])
         self.assertEqual(even([1, 7, 111, 1987]), [])
