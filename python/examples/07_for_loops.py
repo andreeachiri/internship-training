@@ -17,3 +17,12 @@ for i, number in enumerate(primes):
 #
 # for department in head_counts:
 #     print(f"The {department} department has {head_counts[department]} employees")
+
+# # for-else structure
+# even = [3, 7, 9, 11, 13, 17]
+# for number in even:
+#     if number < 5:
+#         print(f"Found {number} which is less than 5")
+#         break
+# else:
+#     print("All numbers are greater than 5 in this list")
