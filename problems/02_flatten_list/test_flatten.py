@@ -1,6 +1,6 @@
 import unittest
 
-from .flatten import flatten
+from flatten import flatten
 
 
 class FlatteningAListTest(unittest.TestCase):

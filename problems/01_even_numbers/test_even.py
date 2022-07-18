@@ -1,6 +1,6 @@
 import unittest
 
-from .even import even
+from even import even
 
 
 class EveningAListTest(unittest.TestCase):

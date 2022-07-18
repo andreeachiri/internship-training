@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch, call
 
-from .visited_places import collect_places, display_places, INVALID_ENTRY_MESSAGE
+from visited_places import collect_places, display_places, INVALID_ENTRY_MESSAGE
 
 
 class CollectingVisitedPlaces(unittest.TestCase):
